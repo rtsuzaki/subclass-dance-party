@@ -43,8 +43,8 @@ body, a:link, a:visited, a:active{
   border-radius:10px;*/
   position:absolute;
   content: url(../hrsf95-subclass-dance-party/pictures/lebron.gif);
-  width: 200px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
 }
 
 .kevin{
@@ -53,8 +53,8 @@ body, a:link, a:visited, a:active{
   position:absolute;*/
   position:absolute;
   content: url(../hrsf95-subclass-dance-party/pictures/kevin.gif);
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .steph{
@@ -63,8 +63,8 @@ body, a:link, a:visited, a:active{
   position:absolute;*/
   position:absolute;
   content: url(../hrsf95-subclass-dance-party/pictures/steph.gif);
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .spin{

@@ -41,8 +41,8 @@ $(document).ready(function() {
   $('.lineUp').on('click', function(event) {
     var position = 0;
     for (var i = 0; i < window.dancers.length; i++) {
-      window.dancers[i].$node.animate({top: String(position) + 'px',left: 10, easing: 'linear'});
-      position += 100;  
+      window.dancers[i].$node.animate({top: '250', left: String(position) + 'px', easing: 'linear'});
+      position += 75;  
     }
   });
    
