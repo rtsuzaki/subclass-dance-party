@@ -26,4 +26,17 @@ describe('stephDancer', function() {
       expect(stephDancer.step.callCount).to.be.equal(2);
     });
   });
+
+
+  describe('stephClass', function() {
+    it('should have a class of steph' , function(){
+      expect($(stephDancer.$node).attr('class')).to.equal('dancer steph');
+    });
+  });
+
+  describe('steph constructor', function() {
+    it('should have a constructor of makeStephDancer' , function(){
+      expect(makeStephDancer.prototype.constructor).to.equal(makeStephDancer);
+    });
+  });
 });

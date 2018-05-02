@@ -55,7 +55,6 @@ $(document).ready(function() {
 
     for(var ballerOne = 1; ballerOne < window.dancers.length; ballerOne++) {
       for(var ballerTwo = 2; ballerTwo < window.dancers.length; ballerTwo++) {
-        debugger;
         if ((ballerOne !== ballerTwo) && (pyTheorem(window.dancers[ballerOne], window.dancers[ballerTwo]) < shortestDistance)) {
           shortestDistance = pyTheorem(window.dancers[ballerOne], window.dancers[ballerTwo]);
           playerOne = window.dancers[ballerOne];
@@ -69,11 +68,15 @@ $(document).ready(function() {
       return ((Math.abs((p2.$node.offset().left - p1.$node.offset().left))**2) + ((Math.abs(p2.$node.offset().top - p1.$node.offset().top))**2))**(1/2);
     }
 
-   playerOne.$node.toggle()
-   playerTwo.$node.toggle() 
+
+  $(playerOne.$node).addClass('spin');
+  $(playerTwo.$node).addClass('spin');
+
  
 
-  })
+
+})
+
 
 });
 

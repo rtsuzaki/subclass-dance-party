@@ -4,9 +4,10 @@ body, html{
 body{
 /*  margin: 0px;*/
 /*  background-color:#444;*/
-  background-image:url(court.png);
+  background-image:url(../hrsf95-subclass-dance-party/pictures/court.png);
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size:cover;
+  /*position:fixed;*/
 /*  font-size: 18px;*/
 }
 body, a:link, a:visited, a:active{
@@ -14,9 +15,20 @@ body, a:link, a:visited, a:active{
 }
 .title{
   padding:10px 20px;
-  float:right;
+/*  float:right;*/
+
 }
 .addDancerButton{
+  padding:10px 20px;
+  float:right;
+  background-color: lightblue
+}
+.lineUp{
+  padding:10px 20px;
+  float:right;
+  background-color: lightblue
+}
+.pyTheorem{
   padding:10px 20px;
   float:right;
   background-color: lightblue
@@ -26,20 +38,45 @@ body, a:link, a:visited, a:active{
   background-color: navy;
 }
 
-.blinky{
-  border:10px solid blue;
-  border-radius:10px;
+.lebron{
+  /*border:10px solid blue;
+  border-radius:10px;*/
   position:absolute;
+  content: url(../hrsf95-subclass-dance-party/pictures/lebron.gif);
+  width: 200px;
+  height: 250px;
 }
 
-.bouncy{
-  border:10px solid red;
+.kevin{
+  /*border:10px solid red;
   border-radius:10px;
+  position:absolute;*/
   position:absolute;
+  content: url(../hrsf95-subclass-dance-party/pictures/kevin.gif);
+  width: 200px;
+  height: 200px;
 }
 
-.slidy{
-  border:10px solid white;
+.steph{
+  /*border:10px solid white;
   border-radius:10px;
+  position:absolute;*/
   position:absolute;
+  content: url(../hrsf95-subclass-dance-party/pictures/steph.gif);
+  width: 200px;
+  height: 200px;
 }
+
+.spin{
+  -webkit-animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
